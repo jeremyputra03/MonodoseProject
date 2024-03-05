@@ -21,6 +21,41 @@
             .card-title{
                 font-weight: bold;
             }
+            .name-card{
+                border: solid 1px #0000;
+            }
+            .title-role{
+                width: 500px;
+                padding: 5px;
+                background-color: #e6a756;
+                color: black;
+                font-style: italic;
+                font-weight: 900;
+                font-size: 40px;
+                margin-bottom: 40px;
+                justify-content: center;
+                text-align: center;
+                border-radius: 0px 0px 55px 55px;
+                margin-left: 600px;
+                border: 10px solid #8e5300;
+            }
+            .photo-card{
+                width: 100%;
+                height: auto;
+            }
+            @media only screen and (max-width: 600px) {
+                .name-card{
+                    margin-bottom: 10px;
+                }
+                .title-role{
+                    width: fit-content;
+                    border: 2px solid #8e5300;
+                    font-size: 20px;
+                    margin-left: 80px;
+                    margin-right: 0;
+                    border-radius: 5px 5px 35px 35px;
+                }
+            }
         </style>
         <header>
             <h1 class="site-heading text-center text-faded d-none d-lg-block">
@@ -65,21 +100,16 @@
                                     <span class="ms-auto">2602189902</span>
                                 </li>
                                 <li class="list-unstyled-item list-hours-item d-flex">
-                                    Marcellino Joshua Kristianto
+                                    Marcellino Joshua K
                                     <span class="ms-auto">2602190375</span>
                                 </li>
                                 <li class="list-unstyled-item list-hours-item d-flex">
-                                    Michello Rayhan Manuel 
+                                    Michello Rayhan M 
                                     <span class="ms-auto">2602189820</span>
                                 </li>
                             </ul>
                             <p class="address mb-5">
                                 <em>
-                                    <!-- <strong>BCA Learning Institute</strong>
-                                    <br />
-                                    X 
-                                    <br />
-                                    <strong>Binus University</strong> -->
                                     <strong>
                                         <br>
                                         Spesial Thanks to Our Lecturer : 
@@ -94,19 +124,16 @@
                 </div>
             </div>
         </section>
-        <div class="product-item-title mb-5">
-            <div class="bg-black p-3 rounded" style="text-align: center; margin-left: 300px; margin-right: 300px; color: white;">
-                <h2 class ="section-heading" >
-                    <span class="section-heading-upper" style="font-size: 60px; font-weight: 600;">
-                        Role On This Project
-                    </span>
-                </h2>
-            </div>
+        <div class="title-role">
+            <p>
+                Role Of This Project
+            </p>
         </div>
+        
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-3 name-card">
               <div class="card">
-                    <img src="./assets/img/Teams/Franky.jpg" alt="">
+                    <img class="photo-card" src="./assets/img/Teams/Franky.jpg" alt="">
                     <div class="card-body">
                         <h2 class="card-title">Franky William</h2>
                         <p class="card-text">- Camera Operator <br>
@@ -116,9 +143,9 @@
                     </div>
               </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 name-card">
               <div class="card">
-                <img src="./assets/img/Teams/Jemi.jpg" alt="">
+                <img class="photo-card" src="./assets/img/Teams/Jemi.jpg" alt="">
                 <div class="card-body">
                   <h3 class="card-title">Jeremy Putra W</h3>
                     <p class="card-text">- Web Designer <br>
@@ -128,9 +155,9 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 name-card">
                 <div class="card">
-                    <img src="./assets/img/Teams/Josua.jpg" style="height: 537px;">
+                    <img class="photo-card" src="./assets/img/Teams/Josua.jpg"  >
                     <div class="card-body">
                         <h3 class="card-title">Marcellino Joshua K</h3>
                         <p class="card-text">- Editor <br>
@@ -140,9 +167,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 name-card">
                 <div class="card">
-                  <img src="./assets/img/Teams/Chello.jpg" alt="">
+                  <img class="photo-card" src="./assets/img/Teams/Chello.jpg" alt="">
                   <div class="card-body">
                     <h3 class="card-title">Michello Rayhan M</h3>
                     <p class="card-text">- Main Actor <br> - Lightning </p>
