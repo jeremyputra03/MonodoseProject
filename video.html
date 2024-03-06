@@ -23,11 +23,24 @@
                 color: #000;
                 border-radius: 6px;
                 transition: 0.2s;
+                font-weight: bold; 
+                font-size: 20px; 
+                margin-left:370px; 
+                margin-bottom: 20px;
             }
             .btn-cover:hover{
                 box-shadow: 0 0 0 4px #fff, 
                 0 0 0 8px #e6a756;
                 font-weight: bolder;
+            }
+            @media only screen and (max-width: 600px) {
+                .btn-cover{
+                    width: max-content;
+                    height: max-content;
+                    margin-right: 0px;
+                    margin-left: 75px;
+                    margin-top: -50px;
+                }
             }
         </style>
         <header>
@@ -53,11 +66,11 @@
         </nav>
         <section class="page-section about-heading">
             <div class="container">
-                <img class="img-fluid rounded about-heading-img mb-5 mb-lg-0" style="width: max-content; height: max-content;" src="assets/img/Thumbnail.png" alt="..." />
+                <img class="img-fluid rounded about-heading-img" style="width: max-content; height: max-content; margin-bottom: 50px;" src="assets/img/ThumbnailMonodose.png" alt="..." />
                 <div class="about-heading-content">
                     <div class="row">
                         <div class="col-xl-9 col-lg-10 mx-auto mt-3" >
-                            <a class="btn btn-primary btn-xl btn-cover" style="font-weight: bold; font-size: 20px; margin-left:370px; margin-bottom: 20px;" href="https://youtu.be/JjwMgV4iz2w?si=R5Gh0b7s2vhkRH1z"><i class="bi bi-play-fill"></i> Watch Video!</a>
+                            <a class="btn btn-primary btn-xl btn-cover"  href="https://youtu.be/JjwMgV4iz2w?si=R5Gh0b7s2vhkRH1z"><i class="bi bi-play-fill"></i> Watch Video!</a>
                             <div class="bg-faded rounded p-5">
                                 <h2 class="section-heading mb-4">
                                     <span class="section-heading-upper" style="font-size: 20px;">Strong Coffee, Strong Roots</span>
